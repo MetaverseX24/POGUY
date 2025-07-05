@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-yellow-100 via-pink-100 to-green-100 relative overflow-visible">
       {/* 土味乱放的LETSBONK图片 */}
-      <Image src="/letsbonk.png" alt="LETSBONK" width={90} height={90} style={{position:'absolute',top:30,left:10,transform:'rotate(-15deg)',border:'4px dashed #ff6600',boxShadow:'6px 6px 0 #ff0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
-      <Image src="/letsbonk.png" alt="LETSBONK" width={60} height={60} style={{position:'absolute',top:120,right:40,transform:'rotate(22deg)',border:'4px solid #00f',boxShadow:'-6px 6px 0 #0ff',zIndex:10,background:'#fff',borderRadius:'50%'}} />
-      <Image src="/letsbonk.png" alt="LETSBONK" width={70} height={70} style={{position:'absolute',bottom:40,left:120,transform:'rotate(-33deg)',border:'4px dotted #0c0',boxShadow:'6px -6px 0 #f0f',zIndex:10,background:'#fff',borderRadius:'50%'}} />
-      <Image src="/letsbonk.png" alt="LETSBONK" width={50} height={50} style={{position:'absolute',bottom:10,right:10,transform:'rotate(8deg)',border:'4px double #f00',boxShadow:'-6px -6px 0 #0f0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={90} height={90} style={{position:'absolute',top:30,left:10,transform:'rotate(-15deg)',border:'4px dashed #ff6600',boxShadow:'6px 6px 0 #ff0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={60} height={60} style={{position:'absolute',top:120,right:40,transform:'rotate(22deg)',border:'4px solid #00f',boxShadow:'-6px 6px 0 #0ff',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={70} height={70} style={{position:'absolute',bottom:40,left:120,transform:'rotate(-33deg)',border:'4px dotted #0c0',boxShadow:'6px -6px 0 #f0f',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={50} height={50} style={{position:'absolute',bottom:10,right:10,transform:'rotate(8deg)',border:'4px double #f00',boxShadow:'-6px -6px 0 #0f0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
       <div className="container-max">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* 左侧内容 */}

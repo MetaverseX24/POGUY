@@ -31,9 +31,9 @@ const Features = () => {
   return (
     <section id="features" className="section-padding bg-gradient-to-l from-pink-100 via-yellow-100 to-green-100 relative overflow-visible">
       {/* 土味乱放的LETSBONK图片 */}
-      <Image src="/letsbonk.png" alt="LETSBONK" width={45} height={45} style={{position:'absolute',top:10,left:20,transform:'rotate(-10deg)',border:'2px solid #ff0',boxShadow:'2px 2px 0 #f0f',zIndex:10,background:'#fff',borderRadius:'50%'}} />
-      <Image src="/letsbonk.png" alt="LETSBONK" width={35} height={35} style={{position:'absolute',top:100,right:30,transform:'rotate(17deg)',border:'2px dashed #00f',boxShadow:'-2px 2px 0 #0ff',zIndex:10,background:'#fff',borderRadius:'50%'}} />
-      <Image src="/letsbonk.png" alt="LETSBONK" width={40} height={40} style={{position:'absolute',bottom:20,left:80,transform:'rotate(-22deg)',border:'2px double #0c0',boxShadow:'2px -2px 0 #ff0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={45} height={45} style={{position:'absolute',top:10,left:20,transform:'rotate(-10deg)',border:'2px solid #ff0',boxShadow:'2px 2px 0 #f0f',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={35} height={35} style={{position:'absolute',top:100,right:30,transform:'rotate(17deg)',border:'2px dashed #00f',boxShadow:'-2px 2px 0 #0ff',zIndex:10,background:'#fff',borderRadius:'50%'}} />
+      <Image src="/letbonk.png" alt="LETSBONK" width={40} height={40} style={{position:'absolute',bottom:20,left:80,transform:'rotate(-22deg)',border:'2px double #0c0',boxShadow:'2px -2px 0 #ff0',zIndex:10,background:'#fff',borderRadius:'50%'}} />
       <div className="container-max">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
