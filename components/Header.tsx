@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Image src="/letbonk.png" alt="letbonk" width={48} height={48} style={{marginRight:'12px',border:'3px solid #00f',borderRadius:'50%',boxShadow:'2px 2px 8px #ccc'}} />
+            <Image src="/letbonk.png" alt="letbonk" width={128} height={128} style={{marginRight:'24px',border:'5px solid #00f',borderRadius:'20px',boxShadow:'6px 6px 20px #0ff',objectFit:'contain',transform:'none'}} />
             <h1 className="text-3xl font-extrabold text-pink-600 drop-shadow-lg tracking-widest animate-pulse">poorguy</h1>
           </div>
 
