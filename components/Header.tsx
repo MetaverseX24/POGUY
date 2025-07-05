@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Image from 'next/image'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,6 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
+            <Image src="/letbonk.png" alt="letbonk" width={48} height={48} style={{marginRight:'12px',border:'3px solid #00f',borderRadius:'50%',boxShadow:'2px 2px 8px #ccc'}} />
             <h1 className="text-3xl font-extrabold text-pink-600 drop-shadow-lg tracking-widest animate-pulse">poorguy</h1>
           </div>
 
